@@ -1,0 +1,50 @@
+.center{
+  border: 10px;
+  width: 100px;
+  height: 150px;
+  border-left-style: dotted;
+  border-color: #D0D0FF;
+  margin-top: 4px;
+  margin-right: 10px;
+  font-family: Tahoma;
+  font-size: 40px;
+  background-color: #eeeff2;
+  float: left;
+
+}
+.q:hover{
+background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+}
+.qq:hover{
+	width: 300px;
+}
+.qqq:hover{
+animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+
+}
+.qqqq:hover{
+	font-family: myFirstFont;
+}
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+}
+
+.qqqqq:hover{
+	box-shadow: 10px 10px;
+}
+.qqqqqq:hover{
+	
+}
